@@ -1,3 +1,64 @@
 body {
-    text-align: center;
+  text-align : center;
 }
+#frame {
+  float: left;
+  position : relative;
+  width : 500;
+  height : 350;
+  border : 5px solid red;
+}
+.players {
+  width : 101;
+  height :100;
+
+}
+
+#image1{
+  /*position : absolute;*/
+  left: 50px;
+  top: 70px;
+  float: left;
+}
+#image2{
+  /*position : absolute;*/
+  left: 0px;
+  top: 70px;
+  float: left;
+}
+#image3{
+  /*position : absolute;*/
+  left: 0px;
+  top: 120px;
+  float: left;
+  clear: both;
+
+}
+#image4{
+  /*position : absolute;*/
+  left: 0px;
+  top: 0px;
+  float: left;
+}
+
+#image5{
+  /*position : absolute;*/
+  left: 50px;
+  top: 0px;
+  float: left;
+  clear: both;
+}
+#score {
+  position : absolute;
+  float: right;
+  clear: both;
+  right: 50px;
+  width: 200px;
+  height: 50px;
+  border: 2px solid black;
+  top: 50px;
+}
+#input {
+  
+}
+img{}
